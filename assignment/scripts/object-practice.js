@@ -42,10 +42,11 @@ function favoriteFood(favFoods) {
     console.log('My last favorite food is:', favFoods[i]);
     }
   }
-  return true;
 }
 
-console.log(favoriteFood(me.favThreeFoods));
+//test the function
+favoriteFood(me.favThreeFoods);
+
 
 
 /* 4. Change a property of an existing object.
